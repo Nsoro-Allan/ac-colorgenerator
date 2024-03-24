@@ -17,7 +17,7 @@ function generateColor(){
 <div class="color-box  skeleton" style="background: ${color};"></div>
 <div class="color-data  skeleton">
 <div class="code  skeleton">${color}</div>
-<span class="btn  skeleton" title="Copy to clipboard" onClick="copyToClipboard('${color}')"><img src="./imgs/clipboard_48.png" style="width:50%; margin-top:20%; margin-left:20%;"></span>
+<span class="btn  skeleton" title="Copy to clipboard" onClick="copyToClipboard('${color}') alert('Color Copied...')"><img src="./imgs/clipboard_48.png" style="width:50%; margin-top:20%; margin-left:20%;"></span>
 </div>`
     }
 }
